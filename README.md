@@ -49,18 +49,4 @@ node app.js
 Utilize o Postman ou qualquer outra ferramenta para testar as rotas da API.
 
 
-## Instalação
-
-## Estrutura do Projeto
-app.js: Arquivo principal que configura e inicia o servidor.
-controllers/sensorController.js: Controlador responsável por lidar com a lógica de manipulação de dados.
-models/sensorModel.js: Modelo que representa o objeto Sensor e lida com a persistência de dados.
-routes.js: Arquivo que define as rotas da API e chama métodos no controlador.
-package.json: Arquivo de configuração do Node.js.
-
-
-## Rotas da API
-POST /api/sensor-data: Endpoint para processar dados simulados do sensor.
-GET /api/simulated-data: Endpoint para obter dados simulados para o frontend.
-
 
